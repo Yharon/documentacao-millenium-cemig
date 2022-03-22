@@ -1,0 +1,25 @@
+##############################################
+# ATENÇÃO!! NUNCA COMENTE A LINHA DO TÍTULO! #
+##############################################
+
+# Data de referência para a rodada atual.
+# Se a variável estiver vazia, roda para o mesmo dia.
+# A partir dessa variável, será criado as pastas na rede.
+# Formato da data deve ser dd/mm/AAAA.
+
+data_rodada:
+
+
+#######################################################################################################################
+
+# Lista de processos que são executados por esse projeto.
+# Se quiser pular algum deles, basta comentar a linha com o nome do processo.
+
+processos:
+
+    - Downloads das faturas
+    - Downloads dos demonstrativos
+    - Conversao xml
+
+login_realizado: Não
+#login_realizado: Sim
